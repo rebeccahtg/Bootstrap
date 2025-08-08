@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Personal Portofolio</title>
+
+<!-- Link Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- CSS tambahan -->
+<style>
+    section {
+    padding: 60px 0;
+    }
+
+    .social-icons a {
+    font-size: 30px;
+    margin: 0 15px;
+    color: #0d6efd;
+    }
+
+    .social-icons a:hover {
+    color: #dc3545;
+    }
+
+    footer {
+    background-color: hsl(210, 97%, 49%);
+    color: white;
+    padding: 30px 0;
+    }
+
+    .navbar-toggler {
+        padding: 0.25rem 0.5rem;
+        font-size: 0.8rem;
+        border: 2px solid rgba(255,255,255,0.5);
+        border-radius: 8px;
+    }
+
+    .navbar-toggler-icon {
+        width: 1.2em;
+        height: 1.2em;
+    }
+</style>
+</head>
+<body>
+
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-primary navbar-dark shadow sticky-top">
+    <div class="container">
+    <a class="navbar-brand" href="#">Rebecca</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+    <!-- Navigasi ke bagian Home -->
+        <li class="nav-item">
+            <a class="nav-link active" href="#home">Home</a>
+        </li>
+    <!-- Navigasi ke bagian About Me -->
+        <li class="nav-item">
+            <a class="nav-link" href="#about">About Me</a>
+        </li>
+    <!-- Navigasi ke bagian My Project -->
+        <li class="nav-item">
+            <a class="nav-link" href="#project">My Project</a>
+        </li>
+    <!-- Navigasi ke bagian Media Sosial -->
+        <li class="nav-item">
+            <a class="nav-link" href="#sosmed">Media Sosial</a>
+        </li>
+        </ul>
+    </div>
+    </div>
+</nav>
+
+    <!-- Home Section -->
+<section id="home" class="text-center bg-light">
+    <div class="container">
+    <!-- Gambar profil -->
+        <img src="img/foto.jpeg" class="rounded-circle shadow mb-3" alt="Foto Profil" width="200">
+        <h2>Rebecca Hutagalung</h2>
+        <i class="lead">
+    Saya adalah pengembang web dengan fokus pada pengalaman pengguna dan desain visual. Saya percaya bahwa teknologi dapat menyederhanakan hidup dan memperkuat pesan.
+</i>
+        </p>
+    </div>
+</section>
+
+    <!-- About Me Section -->
+<section id="about">
+    <div class="container">
+    <h2 class="text-center mb-4">About Me</h2>
+    <div class="row">
+        <div class="col-md-6">
+        <p>Saya adalah seorang yang memiliki minat besar di bidang teknologi dan kreatif digital. Melalui berbagai proyek pribadi dan kolaborasi, saya terus mengasah keterampilan di bidang pengembangan front-end, desain responsif, serta visual branding.</p>
+        </div>
+        <div class="col-md-6">
+        <p>Beberapa keahlian saya meliputi pengembangan situs web, pengelolaan database, dan pembuatan desain antarmuka yang user-friendly. Saya percaya bahwa kombinasi kreativitas dan teknologi dapat menciptakan solusi yang berdampak besar.</p>
+        </div>
+    </div>
+    </div>
+</section>
+
+    <!-- My Project -->
+<section id="project">
+    <div class="container">
+    <h2 class="text-center mb-4">My Project</h2>
+    <div class="row">
+    <!-- Project 1 -->
+    <div class="col-md-4">
+        <div class="card shadow">
+        <img src="img/project1.png" class="card-img-top" alt="Project 1">
+        <div class="card-body">
+            <h5 class="card-title">Image Processing</h5>
+            <p class="card-text">Project ini merupakan tugas akhir (UAS) yang berfokus pada manipulasi kecerahan (brightness) sebuah gambar menggunakan pustaka Python Pillow (PIL) dan visualisasi hasilnya dengan matplotlib.</p>
+        </div>
+        </div>
+    </div>
+    <!-- Project 2 -->
+    <div class="col-md-4">
+        <div class="card shadow">
+        <img src="img/project2.png" class="card-img-top" alt="Project 2">
+        <div class="card-body">
+            <h5 class="card-title">Sistem Informasi Data Jadwal Perkuliahan</h5>
+            <p class="card-text">Project ini merupakan bagian dari sistem informasi berbasis web yang menampilkan jadwal perkuliahan dosen pada suatu Program Studi.</p>
+        </div>
+        </div>
+    </div>
+    <!-- Project 3 -->
+    <div class="col-md-4">
+        <div class="card shadow">
+        <img src="img/project3.png" class="card-img-top" alt="Project 3">
+        <div class="card-body">
+            <h5 class="card-title">Sistem Monitoring </h5>
+            <p class="card-text">Project ini merupakan bagian dari sistem internal Telkom yang digunakan untuk melakukan checklist dan monitoring berkala terhadap perangkat infrastruktur jaringan dan listrik (CME) seperti:Instalasi Daya
+                                Rectifier,Genset (Generator Set),EWS (Early Warning System). Sistem ini digunakan oleh tim operasional untuk mengecek status dan kelayakan perangkat di berbagai lokasi Telkom setiap hari, minggu, bulan, atau per semester sesuai intervalnya.</p>
+        </div>
+        </div>
+    </div>
+    </div>
+</div>
+</section>
+
+    <!-- Media Sosial Section -->   
+<section id="sosmed" class="text-center bg-light">
+    <div class="container">
+    <h2>Media Sosial</h2>
+    <p>Yuk, terhubung dengan saya melalui media sosial berikut:</p>
+    <!-- Ikon media sosial  -->
+    <div class="social-icons">
+    <a href="https://www.instagram.com/rebeccaahtg" target="_blank" class="text-danger fs-2 mx-2">
+    <i class="bi bi-instagram"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/rebecca-krista-hutagalung/" target="_blank" class="text-primary fs-2 mx-2">
+    <i class="bi bi-linkedin"></i>
+    </a>
+    <a href="https://wa.me/6281263630230" target="_blank" class="text-success fs-2 mx-2">
+    <i class="bi bi-whatsapp"></i>
+    </a>
+    </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+<footer class="text-center">
+    <div class="container">
+    <p class="mb-1">Kontak: rebeccahutagalung@email.com</p>
+    <p>&copy; 2025 Rebecca Hutagalung. Hak Cipta Dilindungi</p>
+    </div>
+</footer>
+    <!-- Bootstrap JavaScript Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
